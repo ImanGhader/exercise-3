@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+/* Responsive CSS */
+
+@-moz-viewport { width: device-wdth; scale: 1; }
+@-ms-viewport { width: device-wdth; scale: 1; }
+@-webkit-viewport { width: device-wdth; scale: 1; }
+@-o-viewport { width: device-wdth; scale: 1; }
+@viewport { width: device-wdth; scale: 1; }
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-o-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+html, body {
+	font-weight: 400;
+	width: 100%;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+img {
+	width: 100%;
+}
+
+main {
+	width: 240px;
+	padding: 0.6em;
+}
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////// Content */
+
+div img {
+	max-width: 20%;
+	margin: 1rem 5rem;
+}
+	
+
+h1 {
+	font-size: 1.7rem;
+	font-weight: 700;
+	padding: 1rem;
+	background-color: #000;
+	color: #FFF;
+	width: inherit;
+	text-transform: uppercase;
+	margin-bottom: 1rem;
+}
+
+
+h2 {
+	font-size: 1.25em;
+	font-weight: 500;
+	margin-bottom: 0.5rem;
+}	
+	
+hr {
+	border: dashed;
+	height: 3px;
+}
+
+article img {
+	margin-bottom: .25em;
+}
+
+article {
+	margin-bottom: 3em;
+}
+
+article p {
+	margin-bottom: 0.5em;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: 100;
+}
+
+article a {
+	text-decoration: underline;
+	color: #333;
+	font-weight: 700;
+	font-size: 0.85em;
+	text-align: right; 
+	margin-left: 8rem;
+}
+
+
+
+/*////////////////////////////////////////////////////////////////////////////// Footer */
+
+footer {
+	background: #626262;
+	font-size: .75em;
+	font-weight: 200;
+	color: #FFF;
+	padding: 1em;
+	height: 6rem;
+	font-family: Tahoma, Geneva, sans-serif;
+}

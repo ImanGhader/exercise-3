@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+/* O-TOWN CSS */
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-o-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+html, body {
+	font-weight: 400;
+	width: 100%;
+	font-family: 'Roboto Condensed', sans-serif;
+	/*background-color: #5EB7D3;*/
+	background-color: #999;
+	line-height: 1rem;
+}
+
+img {
+	width: 100%;
+}
+
+main {
+	width: 90%;
+	margin: 10% auto 20%;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////// Content */
+
+.top {
+	position: fixed;
+	display: block; 
+	z-index: 999;
+}
+
+.topmenu a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.1rem;
+	color: black;
+	letter-spacing: 0.1px;
+	margin-left: 0.7rem;
+}
+
+.topmenu li {
+	display: inline-block;
+	font-weight: 700;
+	margin-bottom: 1rem;
+	margin-top: 0.5rem;
+}
+
+.topmenu {
+	display: inline-block;
+	font-weight: 700;
+	position: fixed;
+	display: block;
+	margin: 0 2%;
+	z-index: 1000;
+}
+
+.logo {
+	width: 60%;
+	margin-top: 80px; 
+	margin-left: 20%;
+	position: absolute;
+}
+
+.logobar {
+	margin-top: 1%;
+}
+
+h1 {
+	font-weight: 600;
+	color: #FFF;
+	line-height: 2rem;
+	margin-bottom: 1rem;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 10%;
+}
+
+.pool {
+	box-shadow: 2px 2px 8px #000;
+	margin-bottom: 1rem;
+	border: thick;
+}
+	
+
+article {
+	margin-bottom: 3em;
+}
+
+article p {
+	margin-bottom: 0.5em;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: 100;
+	font-size: 15px;
+}
+
+h2 {
+	font-weight: 600;
+	color: #FFF;
+	line-height: 2rem;
+	margin-bottom: 1rem;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 10%;
+}
+
+.days {
+	padding: 0.5rem 2.3rem;
+	color: #FFF;
+	background-color: #333;
+	text-align: center;
+	line-height: 2.2rem;
+	width: 90%;
+	text-transform: uppercase;
+}
+
+.days-wrapper {
+	text-align: center;
+	display: block;
+	margin-top: 2.5rem;
+	margin-bottom: 1rem;
+}
+
+.schedule-download {	
+	color: #333;
+	font-weight: 700;
+	font-size: 0.7rem;
+	text-transform: uppercase;
+	margin-left: 13%;
+}
+
+main a:hover,
+main a:focus,
+main a:active {
+	text-decoration: none;
+} 
+
+.prices-download {	
+	color: #333;
+	font-weight: 700;
+	font-size: 0.7rem;
+	text-transform: uppercase;
+	margin-left: 13%;
+}
+
+
+
+/*-//////////////////////////////////////////////////////////////////////////// Footer */
+
+.bottom-menu-bar {
+	margin-bottom: 15%;
+}
+
+footer {
+	background: #626262;
+	font-size: .75em;
+	font-weight: 500;
+	color: #FFF;
+	padding: 2% 2% 1% 0;
+	text-align: right;
+	display: block;
+}
+
+
+.bottom a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.1rem;
+	color: black;
+	letter-spacing: 0.1px;
+	margin-right: 0.5rem;
+}
+
+nav li {
+	display: inline-block;
+	font-weight: 700;
+	margin-bottom: 1rem;
+}
+
+nav ul {
+	margin: auto;
+	text-align: center;
+}
